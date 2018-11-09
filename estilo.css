@@ -78,7 +78,7 @@ text-decoration: underline;
 }
 
 #vazio{
-	height:100px;
+	height: 30vh;
 }
 
 #foto{
@@ -93,17 +93,20 @@ text-decoration: underline;
 	
 }
 
-#nome1{
-	margin-top: 20px;
+#nome1{ 
+	width: 200px;
+	
 	font-family: 'Allerta', sans-serif;
 	font-size: 28px;
-	margin-left: 11.5vw;
+	margin:auto;
+	margin-top: 20px;
 }
 
 #nome2{
+	width: 200px;
 	font-family: 'Allerta', sans-serif;
 	font-size: 16px;
-	margin-left: 11.5vw;
+	margin:auto;
 }
 	
 #curriculo{
@@ -163,15 +166,21 @@ text-decoration: underline;
 	margin-top: 100px;
 }
 	
+
+
+
+
+
 #sobrepor{
-	width: 50vw;
+	width: 52vw;
 	height: 100%;
 	
 	background-color: whitesmoke;
 	position: absolute;
 	
-	margin-left: 50vw;
+	margin-left: 48vw;
 }
+
 
 #menu{
 	color: black;
@@ -200,16 +209,60 @@ text-decoration: underline;
 
 #contatop{
 	float: right;
-	margin-left: 29vw;
+	margin-left: 37vw;
+	
+}
+
+
+
+
+#portfoliolinks{
+	margin-top: 70px;
+}
+
+#portfoliolinks li{
+	margin-top: 20px;
 }
 
 #linkphotoshop{
 	color: black;
-	font-weight: 200;
+	font-weight: 500;
 	font-size: 26px;
 }
 
 #linkillustrator{
 	color: black;
+	font-weight: 500;
 	font-size: 26px;
+	
+}
+
+#linkaplicoes{
+	color: black;
+	font-weight: 500;
+	font-size: 26px;
+}
+
+#circulo{
+	height: 150px;
+	width: 150px;
+	border-radius: 50%;
+    display: inline-block;
+	background-color: black;
+	float: right;
+	margin-right: -75px;
+	margin-top: 20px;
+	
+}
+
+#logo{
+	width: 200px;
+	height: 60px;
+	
+	background-image: url(Logo_nova_h.png);
+	background-size:contain;
+	background-repeat: no-repeat;
+	float: right;
+	margin-top: 250px;
+	margin-right: -2vw;
 }
