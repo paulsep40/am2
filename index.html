@@ -10,13 +10,13 @@
 
 <body>
 	<ul id="menuSobre">
-			<li id="iniciolinkd">Inicio</li>
+			<li id="iniciolinkd" onClick="showInicio()">Inicio</li>
 			<li id="contatolinkd"><a href="contato.html">Contato</a></li>
 		</ul>
 	<div id="esquerda">
-		<div id="social">
+		<div id="sociais">
 			<div id="fbcaixa"><a href="https://www.facebook.com/paulo5design" target="_blank"><div id="Facebook"></div></a></div>
-			<div id="instcaixa"><a href="https://www.instagram.com/pauloserpadesign/"><div id="Instagram"></div></a></div>
+			<div id="instcaixa"><a href="https://www.instagram.com/pauloserpadesign/" target="_blank"><div id="Instagram"></div></a></div>
 		</div>
 		
 		<div id="vazio"></div>
@@ -26,13 +26,14 @@
 		<div id="nome2">Design</div>
 
 		<div id="curriculo">
-			•Estudante de Sistemas e Mídias Digitais<br>
-			•Estudante de OpenCG - Gracom<br>
-			•Técnico em Montagem e Manutenção de Computadores - SENAC
+			• Estudante de Sistemas e Mídias Digitais<br>
+			• Estudante de OpenCG - Gracom<br>
+			• Técnico em Montagem e Manutenção de Computadores - SENAC
 		</div>
 	</div>
 	
 	<div id="direita">
+	<div id="vaziod"></div>
 		<div id="texto">
 			<p>Ol&aacute;, meu nome &eacute; Paulo Serpa.</p>
 			
@@ -41,14 +42,21 @@
 
 		
 		</div>
+		
+		<div id="sociaisS">
+			<div id="fbcaixaS"><a href="https://www.facebook.com/paulo5design" target="_blank"><div id="FacebookS"></div></a></div>
+			<div id="instcaixaS"><a href="https://www.instagram.com/pauloserpadesign/" target="_blank"><div id="InstagramS"></div></a></div>
+		</div>
 	
 	</div>
 	
 	<div id="sobrepor">
-		<ul id="menu">
-			<li id="sobre">Sobre</li>
+		
+	  <ul id="menu">
+			<li id="sobre" onClick="hideInicio()">Sobre</li>
 			<li id="contatop"><a id="contatolinkp" href="contato.html">Contato</a></li>
 		</ul>
+		<div id="vazio2"></div>
 		
 		<ul id="portfoliolinks">
 			<li id="photoshop"><a id="linkphotoshop" href="photoshop.html">Photoshop</a></li>
@@ -62,5 +70,22 @@
 		
 	</div>
 	
+	
 </body>
+
+<script>
+	function hideInicio(){
+		document.getElementById("sobrepor").style.marginLeft="100vw";
+		document.getElementById("menuSobre").style.marginLeft="-1.5vw";
+		document.getElementById("sociais").style.marginLeft="-10vw";
+	}
+	
+	function showInicio(){
+		document.getElementById("sobrepor").style.marginLeft="48vw";
+		document.getElementById("menuSobre").style.marginLeft="100vw";
+		document.getElementById("sociais").style.marginLeft="0vw";
+	}
+	
+	
+	</script>
 </html>

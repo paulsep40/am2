@@ -43,6 +43,13 @@ text-decoration: underline;
 	margin-top: 20px;
 	
 }
+
+#sociais{
+	float: left;
+	margin-left: 0vw;
+	transition: 1s;
+	
+}
 #Facebook{
 	background-image: url(fb.png);
 	width: 50px;
@@ -84,8 +91,8 @@ text-decoration: underline;
 #foto{
 	
 	background-image: url(foto.png);
-	width: 230px;
-	height: 230px;
+	width: 300px;
+	height: 300px;
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: contain;
@@ -94,26 +101,26 @@ text-decoration: underline;
 }
 
 #nome1{ 
-	width: 200px;
+	width: 300px;
 	
 	font-family: 'Allerta', sans-serif;
-	font-size: 28px;
+	font-size: 42px;
 	margin:auto;
 	margin-top: 20px;
 }
 
 #nome2{
-	width: 200px;
+	width: 300px;
 	font-family: 'Allerta', sans-serif;
-	font-size: 16px;
+	font-size: 24px;
 	margin:auto;
 }
 	
 #curriculo{
 	font-family: 'Open Sans', sans-serif;
-	font-size: 13px;
+	font-size: 16px;
 	margin-left: 20px;
-	margin-top: 50px;
+	margin-top: 80px;
 	
 }
 
@@ -129,15 +136,15 @@ text-decoration: underline;
 #menuSobre{
 	color: whitesmoke;
 	font-family: 'Open Sans', sans-serif;
-
+	width: 96vw;
 	display: inline-block;
 	text-decoration: none;
 	list-style-type: none;
-	font-size: 24px;
-	
-	visibility: hidden;
-	
+	font-size: 32px;
+	margin-left: 100vw;
 	position: absolute;
+	transition: 1s;
+	
 	
 }
 
@@ -156,18 +163,71 @@ text-decoration: underline;
 	margin-left: 75vw;
 	
 }
+#vaziod{
+	height: 30vh;
+}
 
 #texto{
-	font-size: 14px;
-	width: 40vw;
+	font-size: 18px;
+	width: 30vw;
 	height: 300px;
 	text-align: justify;
 	margin: auto;
-	margin-top: 100px;
+	margin-top: 0;
 }
 	
 
 
+#sociaisS{
+	float: right;
+	margin-right: 0vw;
+	margin-top: 150px;
+	width: 150px;
+	
+}
+
+#fbcaixaS{
+	width: 50px;
+	height: 50px;
+	margin-left: 20px;
+	float: left;
+	margin-top: 20px;
+	
+}
+#FacebookS{
+	background-image: url(fb.png);
+	width: 50px;
+	height: 50px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+	
+}
+
+#FacebookS:hover{
+	background-image: url(fb2.png)
+}
+
+#instcaixaS{
+	width: 50px;
+	float: left;
+	margin-left: 20px;
+	
+	margin-top: 20px;
+}
+
+#InstagramS{
+	background-image: url(inst.png);
+	width: 50px;
+	height: 50px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+}
+
+#InstagramS:hover{
+	background-image: url(inst2.png)
+}
 
 
 
@@ -179,6 +239,9 @@ text-decoration: underline;
 	position: absolute;
 	
 	margin-left: 48vw;
+	
+	transition: 1s;
+	overflow:hidden;
 }
 
 
@@ -188,7 +251,10 @@ text-decoration: underline;
 	display: inline-block;
 	text-decoration: none;
 	list-style-type: none;
-	font-size: 24px;
+	font-size: 32px;
+	width: 47vw;
+	
+	position: absolute;
 }
 
 #sobre:hover{
@@ -209,49 +275,62 @@ text-decoration: underline;
 
 #contatop{
 	float: right;
-	margin-left: 37vw;
+	margin-left: 33vw;
 	
 }
 
 
 
 
-#portfoliolinks{
-	margin-top: 70px;
+#vazio2{
+	height: 30vh;
+	
 }
 
-#portfoliolinks li{
-	margin-top: 20px;
+#portfoliolinks{
+	margin-top: 0;
+}
+
+#illustrator{
+	margin-top: 40px;
+}
+#aplicacoes{
+	margin-top: 40px;
 }
 
 #linkphotoshop{
 	color: black;
 	font-weight: 500;
-	font-size: 26px;
+	font-size: 36px;
+	margin-top: 0px;
+	
 }
+
+
 
 #linkillustrator{
 	color: black;
 	font-weight: 500;
-	font-size: 26px;
-	
+	font-size: 36px;
+	margin-top: 40px;
 }
 
 #linkaplicoes{
 	color: black;
 	font-weight: 500;
-	font-size: 26px;
+	font-size: 36px;
+	margin-top: 40px;
 }
 
 #circulo{
-	height: 150px;
-	width: 150px;
+	height: 200px;
+	width: 200px;
 	border-radius: 50%;
     display: inline-block;
 	background-color: black;
 	float: right;
-	margin-right: -75px;
-	margin-top: 20px;
+	margin-right: -100px;
+	margin-top: -30px;
 	
 }
 
@@ -264,5 +343,5 @@ text-decoration: underline;
 	background-repeat: no-repeat;
 	float: right;
 	margin-top: 250px;
-	margin-right: -2vw;
+	margin-right: -3vw;
 }
