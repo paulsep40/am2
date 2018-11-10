@@ -15,14 +15,14 @@ ul{
 }
 a{
 	
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Source Sans Pro', sans-serif;
 	text-decoration: none;
 	color: white;
 	
 }
 
 a:hover{
-font-family: 'Open Sans', sans-serif;
+font-family: 'Source Sans Pro', sans-serif;
 
 text-decoration: underline;
 }
@@ -117,7 +117,7 @@ text-decoration: underline;
 }
 	
 #curriculo{
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Source Sans Pro', sans-serif;
 	font-size: 16px;
 	margin-left: 20px;
 	margin-top: 80px;
@@ -130,12 +130,12 @@ text-decoration: underline;
 	width: 48vw;
 	background-color: black;
 	color: whitesmoke;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Source Sans Pro', sans-serif;
 }
 
 #menuSobre{
 	color: whitesmoke;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Source Sans Pro', sans-serif;
 	width: 96vw;
 	display: inline-block;
 	text-decoration: none;
@@ -247,7 +247,7 @@ text-decoration: underline;
 
 #menu{
 	color: black;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Source Sans Pro', sans-serif;
 	display: inline-block;
 	text-decoration: none;
 	list-style-type: none;
@@ -303,6 +303,7 @@ text-decoration: underline;
 	font-weight: 500;
 	font-size: 36px;
 	margin-top: 0px;
+	cursor: pointer;
 	
 }
 
@@ -313,6 +314,7 @@ text-decoration: underline;
 	font-weight: 500;
 	font-size: 36px;
 	margin-top: 40px;
+	cursor: pointer;
 }
 
 #linkaplicoes{
@@ -320,6 +322,7 @@ text-decoration: underline;
 	font-weight: 500;
 	font-size: 36px;
 	margin-top: 40px;
+	cursor: pointer;
 }
 
 #circulo{
@@ -344,4 +347,347 @@ text-decoration: underline;
 	float: right;
 	margin-top: 250px;
 	margin-right: -3vw;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+#portfolio{
+	width: 101vw;
+	height: 100%;
+	background-color: white;
+	position: absolute;
+	margin-left: 48vw;
+	transition: 1s;
+	
+	visibility: hidden;
+}
+
+
+#menuport{
+	width: 100vw;
+	opacity: 0;
+	transition: 1s;
+	transition-delay: 1s;
+	
+}
+
+#menuport li{
+	display: inline-block;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 32px;
+	
+	
+	
+	
+}
+
+#menuport li:hover{
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+#contatoport{
+	margin-left: 87vw;
+}
+
+#circulo1ps{
+	height: 200px;
+	width: 200px;
+	border-radius: 50%;
+    display: inline-block;
+	background-color: black;
+	float: right;
+	margin-right: -100px;
+	margin-top: 35vh;
+	opacity: 0;
+	transition: 1s;
+	
+	
+}
+
+#circulo2ps{
+	height: 200px;
+	width: 200px;
+	border-radius: 50%;
+    display: inline-block;
+	background-color: black;
+	float: left;
+	margin-left:-100px;
+	margin-top: 35vh;
+	opacity: 0;
+	transition: 1s;
+	
+	
+}
+
+#imagensps{
+	font-family: 'Source Sans Pro', sans-serif;
+	margin: auto;
+	width:1010px;
+	margin-top: 15vh;
+	opacity: 0;
+	transition: 1s;
+	transition-delay: 1s;
+	
+	
+}
+
+#fotops1{
+	width: 500px;
+	height: 281px;
+	background-image: url(island.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	float: left;
+	
+}
+
+
+#fotops1:hover #caminhadaaooasis{
+	visibility: visible;
+	cursor: pointer;
+}
+
+#caminhadaaooasis{
+	background-color: rgba(241,241,241,0.8);
+	width: 490px;
+	height: 271px;
+	margin-left: 5px;
+	margin-top: 5px;
+	visibility: hidden;
+	
+	
+}
+#espacadortextoasis{
+	height: 50px;
+}
+#caminhadatexto{
+	height: 200px ;
+	width: 400px;
+	margin: auto;
+	
+}
+
+
+
+
+
+
+#fotops2{
+	
+	width: 500px;
+	height: 281px;
+	background-image: url(Dwarf.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	float: left;
+	margin-left: 5px;
+}
+
+#fotops2:hover #dwarf{
+	visibility: visible;
+	cursor: pointer;
+}
+#dwarf{
+	background-color: rgba(241,241,241,0.8);
+	width: 490px;
+	height: 271px;
+	margin-left: 5px;
+	margin-top: 5px;
+	visibility: hidden;	
+}
+#espacadortextodwarf{
+	height: 45px;
+}
+#dwarftexto{
+	height: 200px ;
+	width: 400px;
+	margin: auto;
+	
+}
+
+
+
+
+
+#fotops3{
+	
+	width: 500px;
+	height: 281px;
+	background-image: url(fairy.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	float: left;
+	margin-top: 5px;
+}
+
+#fotops3:hover #fairy{
+	visibility: visible;
+	cursor: pointer;
+}
+
+#fairy{
+	background-color: rgba(241,241,241,0.8);
+	width: 490px;
+	height: 271px;
+	margin-left: 5px;
+	margin-top: 5px;
+	visibility: hidden;	
+}
+
+#espacadortextofairy{
+	height: 45px;
+}
+
+#fairytexto{
+	height: 200px ;
+	width: 400px;
+	margin: auto;
+	
+}
+
+
+
+
+
+#fotops4{
+	
+	width: 500px;
+	height: 281px;
+	background-image: url(Flash_City.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	float: left;
+	margin-left: 5px;
+	margin-top: 5px;
+}
+
+#fotops4:hover #flash{
+	visibility: visible;
+	cursor: pointer;
+}
+
+#flash{
+	background-color: rgba(241,241,241,0.8);
+	width: 490px;
+	height: 271px;
+	margin-left: 5px;
+	margin-top: 5px;
+	visibility: hidden;	
+}
+
+#espacadortextoflash{
+	height: 45px;
+}
+
+#flashtexto{
+	height: 200px ;
+	width: 400px;
+	margin: auto;
+	
+}
+
+
+#lightbox{
+	width: 101vw;
+	height: 101vh;
+	background-color: rgba(0,0,0,0.96);
+	position: absolute;
+	margin-left: -1vw;
+	display: table;
+	opacity: 1;
+	transition: 0.3s;
+	visibility: hidden;
+	color: white;
+	font-family: 'Source Sans Pro', sans-serif;
+	
+}
+
+#exitlight{
+	float: right;
+	margin-right: 60px;
+	font-size: 40px;
+	margin-top: 20px;
+	cursor: pointer;
+}
+
+#caminhadalight{
+	position:absolute;
+	width: 900px;
+	height: 510px;
+	background-image: url(island.jpg);
+	background-repeat: no-repeat;
+	background-size: contain;
+	top: 50%;
+	left: 50%;
+	margin-top: -255px;
+	margin-left: -450px;
+	vertical-align: middle;
+	opacity: 0;
+	transition: 0.5s;
+}
+
+
+#dwarflight{
+	position:absolute;
+	width: 900px;
+	height: 520px;
+	background-image: url(Dwarf.jpg);
+	background-repeat: no-repeat;
+	background-size: contain;
+	
+	top: 50%;
+	left: 50%;
+	margin-top: -260px;
+	margin-left: -450px;
+	vertical-align: middle;
+	opacity: 0;
+	transition: 0.5s;
+	
+}
+
+
+#fairylight{
+	position:absolute;
+	width: 780px;
+	height: 520px;
+	background-image: url(fairy.jpg);
+	background-repeat: no-repeat;
+	background-size: contain;
+	top: 50%;
+	left: 50%;
+	margin-top: -260px;
+	margin-left: -390px;
+	vertical-align: middle;
+	opacity: 0;
+	transition: 0.5s;
+}
+
+#flashlight{
+	position:absolute;
+	width: 780px;
+	height: 520px;
+	background-image: url(Flash_City.jpg);
+	background-repeat: no-repeat;
+	background-size: contain;
+	top: 50%;
+	left: 50%;
+	margin-top: -260px;
+	margin-left: -390px;
+	vertical-align: middle;
+	opacity: 0;
+	transition: 0.5s;
 }
