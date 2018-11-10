@@ -60,8 +60,8 @@
 		
 		<ul id="portfoliolinks">
 			<li id="photoshop"><a id="linkphotoshop" onClick="showPortPS()">Photoshop</a></li>
-			<li id="illustrator"><a id="linkillustrator">Illustrator</a></li>
-			<li id="aplicacoes"><a id="linkaplicoes" >Lakto</a></li>		
+			<li id="illustrator"><a id="linkillustrator" onClick="showPortIL()">Illustrator</a></li>
+				
 		</ul>
 		
 		<div id="circulo"></div>
@@ -72,7 +72,7 @@
 	
 	<div id="portfolio">
 		<ul id="menuport">
-			<li>Início</li>
+			<li onClick="hidePort()">Início</li>
 			<li id="contatoport">Contato</li>
 		</ul>
 		
@@ -130,23 +130,25 @@
 		</div>
 		
 		<div id="imagensil">
-			<div id="fotoil1" onClick="showCaminhada()">
+			<div id="fotoil1" onClick="showhills()">
 				
-				<div id="caminhadaaooasis" onClick="showCaminhada()">
-					<div id="espacadortextoasis"></div>
-					<div id="caminhadatexto">
-					<p style="text-align: center;"><strong><span style="font-size:18px;">Caminhada ao O&aacute;sis</span></strong></p>
-					<p style="text-align: center;">Esta arte, apesar de simples, me desperta muito carinho. Foi feita em um momento muito dif&iacute;cil para mim. Ela &eacute; exatamente o que eu precisava, um lugar de sossego, com musica, natureza, por do sol e m&uacute;sica. Me orgulho muito dessa imagem e guardarei sempre comigo</p></div>
+				<div id="hills" onClick="showhills()">
+					<div id="espacadortexthills"></div>
+					<div id="hillstexto">
+					<p style="text-align: center;"><strong><span style="font-size:18px;">Hills</span></strong></p>
+					<p style="text-align: center;">Essa &eacute; uma vetoriza&ccedil;&atilde;o da arte deAldo Pulella. Foi feita para um trabalho de curso, levou em m&eacute;dia 2 dias para ser finalizada.</p>
+					</div>
 					
 				</div>
 		  </div>
 		  
 			<div id="fotoil2">
-				<div id="dwarf" onClick="showDwarf()">
-					<div id="espacadortextodwarf"></div>
-					<div id="dwarftexto">
-					<p style="text-align: center;"><span style="font-size:18px;"><strong>Dwarf</strong></span></p>
-					<p style="text-align: center;">Esta arte foi desenvolvida baseada em um desenho de um dos alunos de Sistemas e M&iacute;dias Digitais. Esta, por sua vez, inspirada em uma sugest&atilde;o de uma pessoa aleat&oacute;ria do facebook. N&atilde;o h&aacute; muito o que se falar sobre essa imagem, mas ela ficou bem interessante.</p>
+				<div id="bills" onClick="showbills()">
+					<div id="espacadortextobills"></div>
+					<div id="billstexto">
+					<p style="text-align: center;"><strong><span style="font-size:18px;">Bills</span></strong></p>
+					<p style="text-align: center;">Essa vetoriza&ccedil;&atilde;o do personagem Bills de Dragon Ball super foi feita para um trabalho do curso, o tema era vetoriza&ccedil;&atilde;o avan&ccedil;ada, demorou dois e meio para ser finalizada.</p>
+
 					</div>
 					
 				</div>
@@ -155,30 +157,35 @@
 			
 			<div id="fotoil3">
 				
-				<div id="fairy" onClick="showFairy()">
-					<div id="espacadortextofairy"></div>
-					<div id="fairytexto">
-					<p style="text-align: center;"><span style="font-size:18px;"><strong>Fairy</strong></span></p>
-					<p style="text-align: center;">Imagem inspirada na ideia de uma amiga. Diferentemente do meu estilo convencional, essa imagem demandou muita luz, at&eacute; por que essa minha amiga adora luz e nada melhor que homenagea-la na pr&oacute;pria ideia dela.</p>
+				<div id="cartaz" onClick="showcartaz()">
+					<div id="espacadortextocartaz"></div>
+					<div id="cartaztexto">
+					<p style="text-align: center;"><strong><span style="font-size:18px;">Construtivismo</span></strong></p>
+					<p style="text-align: center;">Esse cartaz foi desenvolvido para a disciplina de Hist&oacute;ira do Design, do curso de Sistemas e M&iacute;dias Digitais. Deveria ser desenvolvido um cartaz no estilo Construtivismo Russo, por isso suas cores s&atilde;o envelhecidas, justamente para dar um aspecto de antigo.</p>
+
 
 					</div>
 					
 				</div>
 				
 			</div>
-			<div id="fotoil4" onClick="showFlash()">
-				<div id="flash">
-					<div id="espacadortextoflash"></div>
-					<div id="flashtexto">
-					<p style="text-align: center;"><span style="font-size:18px;"><strong>Flash</strong></span></p>
-					<p style="text-align: center;">O Flash sempre foi um dos meus har&oacute;is preferidos. Tive bastante dificuldade para produzir essa imagem, n&atilde;o encontrava nenhuma imagem digna dele e muito menos um background pra tudo isso. Por esse motivo dei um <em>pause</em> e esperei um tempo para tentar encontrar novas imagens e finalmente consegui!&nbsp;</p>
+			<div id="fotoil4" onClick="showedificio()">
+				<div id="edificios">
+					<div id="espacadortextoedificios"></div>
+					<div id="edificiostexto">
+					<p style="text-align: center;"><strong><span style="font-size:18px;">Cidade Iluminada</span></strong></p>
+					<p style="text-align: center;">Essa arte desperta muito carinho em mim. Era um estudo sobre perspectiva no Illustrator e resolvi fazer uma homenagem para o meu pai (e para mim mesmo). Na se&ccedil;&atilde;o &quot;sobre&quot; desse site, eu fala que comecei a brincar no Paint muito crian&ccedil;a ainda. Na &eacute;poca fiz um desenho com esse nome e ele mostrava pr&eacute;dios e estrelas e a lua. Essa &eacute; uma releitura daquele desenho</p>
+
 
 
 					</div>
 				</div>
 			</div>
 		</div>
+		<div id="logoport"></div>
 	</div>
+	
+<div id="contato"></div>
 	
 <div id="lightbox" onClick="hideLightbox()">
 		<div id="exitlight" onClick="hideLightbox()">X</div>
@@ -187,7 +194,11 @@
 		<div id="dwarflight"></div>
 		<div id="fairylight"></div>
 		<div id="flashlight"></div>
-	
+		
+		<div id="hillslight"></div>
+		<div id="billslight"></div>
+		<div id="cartazlight"></div>
+		<div id="edificiolight"></div>
 		
 	</div>
 	
@@ -217,6 +228,20 @@
 		document.getElementById("circulo2ps").style.opacity="1";
 		document.getElementById("imagensps").style.visibility="visible";
 		document.getElementById("imagensps").style.opacity="1";
+		document.getElementById("logoport").style.opacity="1";
+		
+	}
+	
+	function showPortIL(){
+		document.getElementById("portfolio").style.marginLeft="-1vw";
+		document.getElementById("portfolio").style.visibility="visible";
+		document.getElementById("portfolio").style.opacity="1";
+		document.getElementById("menuport").style.opacity="1";
+		document.getElementById("circulo1ps").style.opacity="1";
+		document.getElementById("circulo2ps").style.opacity="1";
+		document.getElementById("imagensil").style.visibility="visible";
+		document.getElementById("imagensil").style.opacity="1";
+		document.getElementById("logoport").style.opacity="1";
 		
 	}
 	
@@ -229,6 +254,9 @@
 		document.getElementById("circulo2ps").style.opacity="0";
 		document.getElementById("imagensps").style.visibility="hidden";
 		document.getElementById("imagensps").style.opacity="0";
+		document.getElementById("imagensil").style.visibility="hidden";
+		document.getElementById("imagensil").style.opacity="0";
+		document.getElementById("logoport").style.opacity="0";
 		
 	}
 	
@@ -249,6 +277,10 @@
 		document.getElementById("flashlight").style.opacity="0";
 		document.getElementById("fairylight").style.opacity="0";
 		document.getElementById("dwarflight").style.opacity="0";
+		document.getElementById("hillslight").style.opacity="0";
+		document.getElementById("billslight").style.opacity="0";
+		document.getElementById("cartazlight").style.opacity="0";
+		document.getElementById("edificiolight").style.opacity="0";
 		document.getElementById("lightbox").style.visibility="hidden";
 		
 		
@@ -275,8 +307,29 @@
 	}
 	
 	
+	function showhills(){
+		document.getElementById("lightbox").style.visibility="visible";
+		document.getElementById("lightbox").style.opacity="1";
+		document.getElementById("hillslight").style.opacity="1";
+	}
 	
+	function showbills(){
+		document.getElementById("lightbox").style.visibility="visible";
+		document.getElementById("lightbox").style.opacity="1";
+		document.getElementById("billslight").style.opacity="1";
+	}
 	
+	function showcartaz(){
+		document.getElementById("lightbox").style.visibility="visible";
+		document.getElementById("lightbox").style.opacity="1";
+		document.getElementById("cartazlight").style.opacity="1";
+	}
+	
+	function showedificio(){
+		document.getElementById("lightbox").style.visibility="visible";
+		document.getElementById("lightbox").style.opacity="1";
+		document.getElementById("edificiolight").style.opacity="1";
+	}
 	
 	
 	

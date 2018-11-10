@@ -294,9 +294,7 @@ text-decoration: underline;
 #illustrator{
 	margin-top: 40px;
 }
-#aplicacoes{
-	margin-top: 40px;
-}
+
 
 #linkphotoshop{
 	color: black;
@@ -345,7 +343,7 @@ text-decoration: underline;
 	background-size:contain;
 	background-repeat: no-repeat;
 	float: right;
-	margin-top: 250px;
+	margin-top: 350px;
 	margin-right: -3vw;
 }
 
@@ -376,7 +374,7 @@ text-decoration: underline;
 	width: 100vw;
 	opacity: 0;
 	transition: 1s;
-	transition-delay: 1s;
+	transition-delay: 0.5s;
 	
 }
 
@@ -436,7 +434,7 @@ text-decoration: underline;
 	margin-top: 15vh;
 	opacity: 0;
 	transition: 1s;
-	transition-delay: 1s;
+	transition-delay: 0.5s;
 	
 	
 }
@@ -601,14 +599,211 @@ text-decoration: underline;
 }
 
 
+
+#imagensil{
+	position: absolute;
+	font-family: 'Source Sans Pro', sans-serif;
+	margin: auto;
+	width:1010px;
+	left: 50%;
+	margin-left: -505px;
+	top: 25%;
+	opacity: 0;
+	transition: 0.5s;
+	transition-delay: 1s;
+	
+	
+}
+
+
+
+#fotoil1{
+	width: 500px;
+	height: 281px;
+	background-image: url(Hills_Instagram.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	float: left;
+	
+}
+
+
+#fotoil1:hover #hills{
+	visibility: visible;
+	cursor: pointer;
+}
+
+#hills{
+	background-color: rgba(241,241,241,0.8);
+	width: 490px;
+	height: 271px;
+	margin-left: 5px;
+	margin-top: 5px;
+	visibility: hidden;
+	
+	
+}
+#espacadortexthills{
+	height: 50px;
+}
+#hillstexto{
+	height: 200px ;
+	width: 400px;
+	margin: auto;
+	
+}
+
+
+
+
+
+
+#fotoil2{
+	
+	width: 500px;
+	height: 281px;
+	background-image: url(bills4.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	float: left;
+	margin-left: 5px;
+}
+
+#fotoil2:hover #bills{
+	visibility: visible;
+	cursor: pointer;
+}
+#bills{
+	background-color: rgba(241,241,241,0.8);
+	width: 490px;
+	height: 271px;
+	margin-left: 5px;
+	margin-top: 5px;
+	visibility: hidden;	
+}
+#espacadortextobills{
+	height: 45px;
+}
+#billstexto{
+	height: 200px ;
+	width: 400px;
+	margin: auto;
+	
+}
+
+
+
+
+
+#fotoil3{
+	
+	width: 500px;
+	height: 281px;
+	background-image: url(construtivismo.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	float: left;
+	margin-top: 5px;
+}
+
+#fotoil3:hover #cartaz{
+	visibility: visible;
+	cursor: pointer;
+}
+
+#cartaz{
+	background-color: rgba(241,241,241,0.8);
+	width: 490px;
+	height: 271px;
+	margin-left: 5px;
+	margin-top: 5px;
+	visibility: hidden;	
+}
+
+#espacadortextocartaz{
+	height: 45px;
+}
+
+#cartaztexto{
+	height: 200px ;
+	width: 400px;
+	margin: auto;
+	
+}
+
+
+
+
+
+#fotoil4{
+	
+	width: 500px;
+	height: 281px;
+	background-image: url(Edificios.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	float: left;
+	margin-left: 5px;
+	margin-top: 5px;
+}
+
+#fotoil4:hover #edificios{
+	visibility: visible;
+	cursor: pointer;
+}
+
+#edificios{
+	background-color: rgba(241,241,241,0.8);
+	width: 490px;
+	height: 271px;
+	margin-left: 5px;
+	margin-top: 5px;
+	visibility: hidden;	
+}
+
+#espacadortextoedificios{
+	height: 45px;
+}
+
+#edificiostexto{
+	height: 200px ;
+	width: 400px;
+	margin: auto;
+	
+}
+
+
+
+#logoport{
+	width: 200px;
+	height: 60px;
+	
+	background-image: url(Logo_nova_h.png);
+	background-size:contain;
+	background-repeat: no-repeat;
+	float: right;
+	margin-top: 350px;
+	margin-right: -3vw;
+	opacity: 0;
+	transition: 0.5s;
+	transition-delay: 0.5s;
+}
+
+
+
+
 #lightbox{
 	width: 101vw;
-	height: 101vh;
+	height: 100vh;
 	background-color: rgba(0,0,0,0.96);
 	position: absolute;
 	margin-left: -1vw;
 	display: table;
-	opacity: 1;
+	opacity: 0;
 	transition: 0.3s;
 	visibility: hidden;
 	color: white;
@@ -622,6 +817,11 @@ text-decoration: underline;
 	font-size: 40px;
 	margin-top: 20px;
 	cursor: pointer;
+	opacity: 0.5;
+}
+
+#exitlight:hover{
+	opacity: 1;
 }
 
 #caminhadalight{
@@ -691,3 +891,78 @@ text-decoration: underline;
 	opacity: 0;
 	transition: 0.5s;
 }
+
+
+#hillslight{
+	position:absolute;
+	width: 600px;
+	height: 600px;
+	background-image: url(Hills_Instagram.jpg);
+	background-repeat: no-repeat;
+	background-size: contain;
+	
+	top: 50%;
+	left: 50%;
+	margin-top: -300px;
+	margin-left: -300px;
+	vertical-align: middle;
+	opacity: 0;
+	transition: 0.5s;
+	
+}
+
+
+#billslight{
+	position:absolute;
+	width: 400px;
+	height: 520px;
+	background-image: url(bills4.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+	
+	top: 50%;
+	left: 50%;
+	margin-top: -260px;
+	margin-left: -200px;
+	vertical-align: middle;
+	opacity: 0;
+	transition: 0.5s;
+	
+}
+
+#edificiolight{
+	position:absolute;
+	width: 700px;
+	height: 600px;
+	background-image: url(Edificios.jpg);
+	background-repeat: no-repeat;
+	background-size: contain;
+	
+	top: 50%;
+	left: 50%;
+	margin-top: -300px;
+	margin-left: -350px;
+	vertical-align: middle;
+	opacity: 0;
+	transition: 0.5s;
+	
+}
+
+#cartazlight{
+	position:absolute;
+	width: 400px;
+	height: 600px;
+	background-image: url(construtivismo.jpg);
+	background-repeat: no-repeat;
+	background-size: contain;
+	
+	top: 50%;
+	left: 50%;
+	margin-top: -300px;
+	margin-left: -200px;
+	vertical-align: middle;
+	opacity: 0;
+	transition: 0.5s;
+	
+}
+
