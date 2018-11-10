@@ -2,7 +2,7 @@
 <html lang="pt-br">
 <head>
 <meta charset="utf-8">
-<title>Início</title>
+<title>Paulo Serpa Design</title>
 <link href="estilo.css" rel="stylesheet" type="text/css">
 <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
 
@@ -11,7 +11,7 @@
 <body>
 	<ul id="menuSobre">
 			<li id="iniciolinkd" onClick="showInicio()">Inicio</li>
-			<li id="contatolinkd"><a href="contato.html">Contato</a></li>
+			<li id="contatolinkd" onClick="showContato()">Contato</li>
 		</ul>
 	<div id="esquerda">
 		<div id="sociais">
@@ -54,7 +54,7 @@
 		
 	  <ul id="menu">
 			<li id="sobre" onClick="hideInicio()">Sobre</li>
-			<li id="contatop"><a id="contatolinkp" href="contato.html">Contato</a></li>
+			<li id="contatop" onClick="showContato()">Contato</li>
 		</ul>
 		<div id="vazio2"></div>
 		
@@ -73,7 +73,7 @@
 	<div id="portfolio">
 		<ul id="menuport">
 			<li onClick="hidePort()">Início</li>
-			<li id="contatoport">Contato</li>
+			<li id="contatoport" onClick="showContato()">Contato</li>
 		</ul>
 		
 		<div id="circulo1ps"></div>
@@ -187,15 +187,19 @@
 	
 <div id="contatoPage">
 	<div id="ladoD">
+	<div id="iniciocontatopage" onClick="hideContato()">Início</div>
 		<div id="formaqui">
 		  <div id="contateme">Contate-me</div>
 			<form id="formcontato">
-			<input id="nome" type="text" placeholder="Nome">
-			<input id="assunto" type="text" placeholder="Assunto"><br>
-			<input id="email" type="email" placeholder="Email"><br>
-			<input id="mensagem" type="text" placeholder="Mensagem"><br>
-			<input id="enviarbutton" type="submit" value="Enviar">
+			<input id="nome" type="text" placeholder="Nome*">
+			<input id="assunto" type="text" placeholder="Assunto*"><br>
+			<input id="email" type="email" placeholder="Email*"><br>
+			<textarea id="mensagem" type="text" placeholder="Mensagem"></textarea><br>
 		</form>
+			<button id="enviarbutton" onClick="checarform()">Enviar</button>
+			<div id="sucesso">Sua Mensagem foi enviada com Sucesso!</div>
+			<div id="falha">Por favor, cheque os campos e tente novamente.</div>
+			
 		</div>
 	</div>
 	
@@ -345,7 +349,56 @@
 		document.getElementById("edificiolight").style.opacity="1";
 	}
 	
+	function showContato(){
+		hidePort();
+		showInicio();
+		document.getElementById("contatoPage").style.left="48vw";
+	}
 	
+	function hideContato(){
+		
+		document.getElementById("contatoPage").style.left="101vw";
+		
+	}
+	
+	function checarform(){
+		var inputnome=document.getElementById("nome").value;
+		var inputassunto=document.getElementById("assunto").value;
+		var inputemail=document.getElementById("email").value;
+		
+		if((inputnome=="")||(inputassunto=="")||(inputemail=="")){
+			document.getElementById("sucesso").style.visibility="hidden";
+			document.getElementById("falha").style.visibility="visible";
+		
+			if(inputnome==""){
+				document.getElementById("nome").style.borderColor="red";
+			}
+
+			if(inputassunto==""){
+				document.getElementById("assunto").style.borderColor="red";
+			}
+
+			if(inputemail==""){
+				document.getElementById("email").style.borderColor="red";
+			}
+		}
+		
+		else{
+			document.getElementById("nome").style.borderColor="white";
+			document.getElementById("nome").value="";
+			
+			document.getElementById("assunto").style.borderColor="white";
+			document.getElementById("assunto").value="";
+			
+			document.getElementById("email").style.borderColor="white";
+			document.getElementById("email").value="";
+			
+			document.getElementById("mensagem").value="";
+			
+			document.getElementById("sucesso").style.visibility="visible";
+			document.getElementById("falha").style.visibility="hidden";
+		}
+	}
 	
 	
 	</script>

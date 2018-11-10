@@ -172,6 +172,11 @@ input{
 	margin-left: 75vw;
 	
 }
+
+#contatolinkd:hover{
+	text-decoration: underline;
+	cursor: pointer;
+}
 #vaziod{
 	height: 30vh;
 }
@@ -279,15 +284,24 @@ input{
 
 #contatolinkp{
 	color: black;
+	cursor: pointer;
 	
+}
+
+#contatolinkp{
+	text-decoration: underline;
 }
 
 #contatop{
 	float: right;
 	margin-left: 33vw;
+	cursor: pointer;
 	
 }
 
+#contatop:hover{
+	text-decoration: underline;
+}
 
 
 
@@ -806,42 +820,124 @@ input{
 
 #contatoPage{
 	position: absolute;
-	width: 101vw;
+	width: 55vw;
 	height: 100vh;
+	left: 101vw;
 	background-color: black;
 	color: white;
 	font-family: 'Source Sans Pro', sans-serif;
+	transition: 1s;
 }
 
 #ladoD{
 	width: 50vw;
 	height: 100vh;
-	left: 50%;
+	
 	position: absolute;
+}
+
+#iniciocontatopage{
+	font-size: 32px;
+	float: right;
+	margin-right: 1vw;
+	margin-top: 20px;
+	cursor: pointer;
+}
+
+#iniciocontatopage:hover{
+	text-decoration: underline;
 }
 
 #formaqui{
 	position: absolute;
-	width: 500px;
-	height: 400px;
+	width: 600px;
+	height: 550px;
 	top: 50%;
 	left: 50%;
-	margin-left: -250px;
-	margin-top: -200px;
+	margin-left: -300px;
+	margin-top: -275px;
 	
 	
 }
 
+#contateme{
+	font-size: 24px;
+	
+}
 
+
+#nome{
+	width: 293px;
+	height: 30px;
+	margin-top: 10px;
+	
+}
+
+#assunto{
+	margin-left: 2px;
+	width: 293px;
+	height: 30px;
+	margin-top: 10px;
+}
+
+#email{
+	width: 596px;
+	height: 30px;
+	margin-top: 30px;
+}
+
+#mensagem{
+	width: 596px;
+	padding-bottom: 200px;
+	margin-top: 30px;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+#enviarbutton{
+	width: 604px;
+	height: 40px;
+	background-color: #101010;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+	color: white;
+	border-color: white;
+	cursor: pointer;
+}
+
+
+#enviarbutton:hover{
+	
+	color:#4caf50;
+	border-color: #4caf50;
+	border-width: 3px;
+}
+
+#sucesso{
+	font-style: italic;
+	font-weight: 100;
+	font-size: 14px;
+	color: limegreen;
+	visibility: hidden;
+}
+
+#falha{
+	font-style: italic;
+	font-weight: 100;
+	font-size: 14px;
+	color: red;
+	visibility: hidden;
+	margin-top: -17px;
+}
 
 #formcontato{
 	font-family: 'Source Sans Pro', sans-serif;
 	font-size: 16px;
 }
 
-#enviarbutton{
-	color: black;
-}
+
 
 #lightbox{
 	width: 101vw;
