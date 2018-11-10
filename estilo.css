@@ -27,6 +27,15 @@ font-family: 'Source Sans Pro', sans-serif;
 text-decoration: underline;
 }
 
+
+input{
+	
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	
+	
+}
 #esquerda{
 	float: left;
 	color: whitesmoke;
@@ -795,6 +804,44 @@ text-decoration: underline;
 
 
 
+#contatoPage{
+	position: absolute;
+	width: 101vw;
+	height: 100vh;
+	background-color: black;
+	color: white;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+#ladoD{
+	width: 50vw;
+	height: 100vh;
+	left: 50%;
+	position: absolute;
+}
+
+#formaqui{
+	position: absolute;
+	width: 500px;
+	height: 400px;
+	top: 50%;
+	left: 50%;
+	margin-left: -250px;
+	margin-top: -200px;
+	
+	
+}
+
+
+
+#formcontato{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 16px;
+}
+
+#enviarbutton{
+	color: black;
+}
 
 #lightbox{
 	width: 101vw;
