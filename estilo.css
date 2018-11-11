@@ -366,7 +366,7 @@ input{
 	width: 200px;
 	height: 60px;
 	position: absolute;
-	background-image: url(Logo_nova_h.png);
+	background-image: url(logo_nova_h.png);
 	background-size:contain;
 	background-repeat: no-repeat;
 	top: 100vh;
@@ -818,7 +818,7 @@ input{
 	width: 200px;
 	height: 60px;
 	position: absolute;
-	background-image: url(Logo_nova_h.png);
+	background-image: url(logo_nova_h.png);
 	background-size:contain;
 	background-repeat: no-repeat;
 	top:100vh;
