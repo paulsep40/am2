@@ -1,7 +1,7 @@
 function hideInicio(){
 		document.getElementById("sobrepor").style.marginLeft="100vw";
 		document.getElementById("menuSobre").style.marginLeft="-1.5vw";
-		document.getElementById("sociais").style.marginLeft="-10vw";
+		document.getElementById("sociais").style.marginLeft="-20vw";
 	}
 	
 	function showInicio(){
