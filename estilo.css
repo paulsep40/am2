@@ -6,7 +6,7 @@ body{
 	background-color:black;
 	margin-top: 0px;
 	overflow-x: hidden;
-
+	overflow-y: hidden;
 }
 
 ul{
@@ -100,8 +100,8 @@ input{
 #foto{
 	
 	background-image: url(foto.png);
-	width: 300px;
-	height: 300px;
+	width: 15vw;
+	height: 15vw;
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: contain;
@@ -115,7 +115,7 @@ input{
 	font-family: 'Allerta', sans-serif;
 	font-size: 42px;
 	margin:auto;
-	margin-top: 20px;
+	margin-top: 3vh;;
 }
 
 #nome2{
