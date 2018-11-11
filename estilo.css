@@ -271,9 +271,11 @@ input{
 	list-style-type: none;
 	font-size: 32px;
 	width: 47vw;
-	
 	position: absolute;
+	
+	
 }
+
 
 #sobre:hover{
 	text-decoration: underline;
@@ -902,12 +904,16 @@ input{
 
 #mensagem{
 	width: 596px;
-	padding-bottom: 200px;
+	height: 250px;
 	margin-top: 30px;
 	font-family: 'Source Sans Pro', sans-serif;
 	font-size: 16px;
 	font-weight: bold;
+	resize: none;
+	
+	
 }
+
 
 #enviarbutton{
 	width: 604px;
@@ -919,7 +925,9 @@ input{
 	color: white;
 	border-color: white;
 	cursor: pointer;
+	
 }
+
 
 
 #enviarbutton:hover{

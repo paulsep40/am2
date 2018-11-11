@@ -141,6 +141,9 @@ function hideInicio(){
 		var inputemail=document.getElementById("email").value;
 		
 		if((inputnome=="")||(inputassunto=="")||(inputemail=="")){
+			document.getElementById("nome").style.borderColor="white";
+			document.getElementById("assunto").style.borderColor="white";
+			document.getElementById("email").style.borderColor="white";
 			document.getElementById("sucesso").style.visibility="hidden";
 			document.getElementById("falha").style.visibility="visible";
 		
