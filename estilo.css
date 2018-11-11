@@ -361,13 +361,15 @@ input{
 #logo{
 	width: 200px;
 	height: 60px;
-	
+	position: absolute;
 	background-image: url(Logo_nova_h.png);
 	background-size:contain;
 	background-repeat: no-repeat;
-	float: right;
-	margin-top: 350px;
-	margin-right: -3vw;
+	top: 100vh;
+	left: 50vw;
+	margin-left: -200px;
+	margin-top: -70px;
+	transition: 0.5s;
 }
 
 
@@ -394,7 +396,7 @@ input{
 
 
 #menuport{
-	width: 100vw;
+	width: 95vw;
 	opacity: 0;
 	transition: 1s;
 	transition-delay: 0.5s;
@@ -417,7 +419,7 @@ input{
 }
 
 #contatoport{
-	margin-left: 85vw;
+	float: right;
 }
 
 #circulo1ps{
@@ -454,7 +456,12 @@ input{
 	font-family: 'Source Sans Pro', sans-serif;
 	margin: auto;
 	width:1010px;
-	margin-top: 15vh;
+	height: 567px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-left: -505px;
+	margin-top: -283px;
 	opacity: 0;
 	transition: 1s;
 	transition-delay: 0.5s;
@@ -624,16 +631,18 @@ input{
 
 
 #imagensil{
-	position: absolute;
 	font-family: 'Source Sans Pro', sans-serif;
 	margin: auto;
 	width:1010px;
+	height: 567px;
+	position: absolute;
+	top: 50%;
 	left: 50%;
 	margin-left: -505px;
-	top: 25%;
+	margin-top: -283px;
 	opacity: 0;
-	transition: 0.5s;
-	transition-delay: 1s;
+	transition: 1s;
+	transition-delay: 0.5s;
 	
 	
 }
@@ -804,13 +813,14 @@ input{
 #logoport{
 	width: 200px;
 	height: 60px;
-	
+	position: absolute;
 	background-image: url(Logo_nova_h.png);
 	background-size:contain;
 	background-repeat: no-repeat;
-	float: right;
-	margin-top: 350px;
-	margin-right: -3vw;
+	top:100vh;
+	margin-top: -65px;
+	left: 100vw;
+	margin-left: -210px;
 	opacity: 0;
 	transition: 0.5s;
 	transition-delay: 0.5s;
