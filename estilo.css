@@ -483,7 +483,7 @@ input{
 	background-size: cover;
 	background-position: center;
 	float: left;
-	
+	cursor: pointer;
 }
 
 
@@ -518,7 +518,7 @@ input{
 
 
 #fotops2{
-	
+	cursor: pointer;
 	width: 500px;
 	height: 281px;
 	background-image: url(Dwarf.jpg);
@@ -556,7 +556,7 @@ input{
 
 
 #fotops3{
-	
+	cursor: pointer;
 	width: 500px;
 	height: 281px;
 	background-image: url(fairy.jpg);
@@ -607,6 +607,7 @@ input{
 	float: left;
 	margin-left: 5px;
 	margin-top: 5px;
+	cursor: pointer;
 }
 
 #fotops4:hover #flash{
@@ -663,6 +664,7 @@ input{
 	background-size: cover;
 	background-position: center;
 	float: left;
+	cursor: pointer;
 	
 }
 
@@ -707,6 +709,7 @@ input{
 	background-position: center;
 	float: left;
 	margin-left: 5px;
+	cursor: pointer;
 }
 
 #fotoil2:hover #bills{
@@ -745,6 +748,7 @@ input{
 	background-position: center;
 	float: left;
 	margin-top: 5px;
+	cursor: pointer;
 }
 
 #fotoil3:hover #cartaz{
@@ -787,6 +791,7 @@ input{
 	float: left;
 	margin-left: 5px;
 	margin-top: 5px;
+	cursor: pointer;
 }
 
 #fotoil4:hover #edificios{
